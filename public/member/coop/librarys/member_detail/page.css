@@ -1,0 +1,247 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (https://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Toggle Styles */
+/* This sidebar modified by seegatesite.com */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+
+  #sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+
+  /* #page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+  } */
+
+  #wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+  }
+
+  .fixed-brand {
+    width: auto;
+  }
+  /* Sidebar Styles */
+
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 2px;
+  }
+
+  .sidebar-nav li {
+    text-indent: 15px;
+    line-height: 40px;
+  }
+
+  .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color:#6aa3d5 ;
+  }
+
+  .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: red;
+    border-left: #6aa3d5 2px solid;
+  }
+
+
+  .sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+  }
+
+  .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+
+  .sidebar-nav > .sidebar-brand a:hover {
+    color: #6aa3d5;
+    background: none;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+  @media(max-width:768px){
+    .p_deposit_balance{
+      padding: 0 !important;
+      text-align: right;
+    }
+  }
+  @media(min-width:768px) {
+
+
+    #wrapper {
+      padding-left: 250px;
+    }
+    .fixed-brand {
+      width: 250px;
+    }
+    #wrapper.toggled {
+      padding-left: 0;
+    }
+    #sidebar-wrapper {
+      width: 250px;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+      width: 250px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper {
+      width: 150px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper:hover {
+      width: 250px;
+    }
+    #page-content-wrapper {
+      padding: 20px;
+      position: relative;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    #wrapper.toggled #page-content-wrapper {
+      position: relative;
+      margin-right: 0;
+      padding-left: 250px;
+    }
+    #wrapper.toggled-2 #page-content-wrapper {
+      position: relative;
+      margin-right: 0;
+      margin-left: -200px;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+  }
+
+  .header-coop{
+    margin-top:-36px;
+    padding-left: 15px;
+  }
+
+  table.dataTable>tbody>tr.child ul.dtr-details>li {
+    border-bottom: 0px solid #efefef;
+    padding: 0.5em 0;
+}
+
+.img-thumbnail-small{
+  display: inline-block;
+  max-width: 35%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 15px;
+	right:  10px;
+	cursor: pointer;
+	display: none;
+}
+/*Start Card*/
+   .wrimagecard{
+	  margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  .wrimagecard-topimage .fa{
+    position: relative;
+    font-size: 70px;
+  }
+  .wrimagecard-topimage_header{
+  padding: 20px;
+  }
+  a.wrimagecard:hover, .wrimagecard-topimage:hover {
+      box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+  }
+  .wrimagecard-topimage a {
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+  }
+  .wrimagecard-topimage_title {
+      padding: 20px 24px;
+      height: 150px;
+      padding-bottom: 0.75rem;
+      position: relative;
+  }
+  .wrimagecard-topimage a {
+      border-bottom: none;
+      text-decoration: none;
+      color: #525c65;
+      transition: color 0.3s ease;
+  }
+
+/*End Card*/
+
+.text-caption{
+  font-size: 15px !important;
+}
+
+.text-detail{
+  font-size: 15px;
+}
+
+.text-caption-detail{
+  margin-bottom: 10px;
+}
+
+.navbar-default {
+    display: block;
+    /* display: unset; */
+    padding: unset;
+    background-image:linear-gradient(to right, #45a8fe, #3dadfc, #39b1fa, #39b5f7, #3cb9f4);
+}
+
+nav > div {
+    float: unset;
+    width: unset;
+}

@@ -1,0 +1,150 @@
+.nav-menu-top h5 {margin:0;margin-top:30px; color: #333;  }
+.nav-menu-top h1{margin:0 ;font-weight:bold }
+.nav-menu-top h4{margin:0 }
+.nav-menu-bottom{
+    /* background-image:  linear-gradient(to right, #e76b2e, #e87427, #e87e1e, #e78715, #e59107);  */
+    background-image:   linear-gradient(to right, #333333, #2e2e2f, #2a2a2a, #252526, #212122);
+    color: #ffffff ;
+    margin: 0px 0 17px;
+    box-shadow: 0px 1px 6px 0px #00000073;
+    /* border: 3px solid #00000017; */
+    /* border-radius: 7px; */
+}
+.header-title {color : #e87405 ; font-weight: bold; }
+.f-cmcoop, .f-cmcoop:HOVER, .f-cmcoop a, .f-cmcoop a:HOVER { color: #45464a; font-weight: bold; }
+.news-tab .nav-tabs li.active a { color : #fff !important;  }
+/*.news-tab .nav-tabs li.active a { color :  #333333 !important ;  }*/
+ul.left-nav li{background-color : #9E75B3  ; display: block ; padding : 0px;margin-bottom : 3px;}
+ul.left-nav li a{  color :#FFF ; display:block; padding : 10px; overflow: hidden; }
+ul.left-nav li span.link {margin:0; color :#FFF;padding-left: 25px;}
+
+ul.left-nav li a .fa{
+    font-size: 36px;
+    position: absolute;
+    /*right: 30px; */
+}
+
+#navbar > .menu-1 > ul   { margin : 0 ; padding : 0 ; list-style-type:none;display: block;text-align:left ; }
+#navbar > .menu-1 > ul > li {   display:inline-block ; padding-bottom: 10px; padding-top: 10px;padding-right: 0px;  }
+#navbar > .menu-1 > ul > li > a{color :#ffffff ; font-size: 15px; font-family: 'THSarabunNew', sans-serif;  padding: 8px 12px; display: block; line-height: 18px; border-radius: 5px; text-decoration: none;}
+#navbar > .menu-1 > ul > li:hover > a { background-color : #9d9d9d; color: #fff; }
+#navbar > .menu-1 > ul > li:hover .dropdown-menu{display:block }
+.dropdown-menu { margin-top : 0px; }
+.dropdown-menu>li>a {
+    font-size: 13px;
+}
+#navbar ul {}
+
+
+.interest-block { background-color :#FFF ; border-bottom :none;  }
+.interest-block ul {padding : 0px;}
+.interest-block li { overflow:hidden ; font-size:13px;}
+.interest-footer {background-color : #FFF ; }
+.interest-block .interest-head { background-color :  #8bad23 ;  color :#FFF ;  }
+.logo-desktop {max-width : 150px;}
+
+.news-2-list .item1 .title {display: block;overflow:hidden ; margin-bottom : 15px;color :#333 ;  /*line-height : 20px; height:40px; */}
+.news-2-list .item1 .title a {color: #606162;}
+.news-2-list .title a {color: #606162;}
+.item1 {height: 395px;}
+.news-2-detail {color: #606162 !important;font-size: 16px;}
+.news-2-detail a {color: #606162;overflow:hidden ;}
+.logo-mobile {display:none;}
+.subject {background : #9E75B3 }
+.slide1 .slide1-pager .cycle-pager-active {color : #8bad23; }
+.news-list-2 a{ color :#333 }
+.news-list-2 .title1{height : 80px;display:block;overflow:hidden; }
+
+.search-box-1 {
+
+	padding: 20px;
+    margin-top: 30px;
+    background: #e0e0e0;
+
+}
+.search-box-1  .form-group {
+	margin-bottom : 0px;
+
+}
+@media (max-width: 768px)
+{
+    /*#navbar {background:#666666 ;}
+    .nav-tabs>li {
+        text-align:center ;
+        display:block ;
+        float:none;
+
+    }
+    .news-tab .nav-tabs li a { background-image : none !important ; }
+    */
+
+    /*#navbar{ }*/
+    /*.nav-menu-top h5 {margin-top : 0px;font-size:14px; }*/
+    /*.nav-menu-top h1 {font-size:18px;   }*/
+    /*.nav-menu-top h4{margin-top : 0px;font-size:14px;  }*/
+    /*.logo-desktop {display:none; position:absolute ; top:10px; }*/
+
+    /*.logo-mobile {display:block;float:left;width:45px; margin-right : 10px; margin-top:7px;}*/
+    /*.toggle-nav-1{position:absolute;top:5px;right:0px;}*/
+    /*.icon-bar{background : #9E75B3  }*/
+    /*.nav-menu-top{border-bottom: 1px solid #9E75B3 ;  }*/
+
+    /*#navbar > .menu-1 > ul > li {display:block;border-bottom:1px solid #FFF ;overflow: hidden;  }*/
+    /*#navbar > .menu-1 > ul > li .dropdown-menu {  width: 100%; background: transparent; position:relative ; }*/
+    /*#navbar > .menu-1 > ul > li .dropdown-menu  a{ color : #FFF ; }*/
+
+    /*#navbar > .menu-1 > ul > li .dropdown-menu  > li:hover a{ color :#000 ; }*/
+    .navbar-toggle {    
+        border: 1px solid #1d2129;
+        background: #000000a8;
+        top: 20px;
+    }
+
+    .nav-tabs>li {
+        text-align:center ;
+        display:block ;
+        float:none;
+
+    }
+    .news-tab .nav-tabs li a { background-image : none !important ; }
+
+}
+
+@media (max-width: 480px){
+    #navbar > .menu-1 > ul > li {display:block;border-bottom:1px solid #FFF ;overflow: hidden;  }
+    #navbar > .menu-1 > ul > li .dropdown-menu {  width: 100%; background: transparent; position:relative ; }
+    #navbar > .menu-1 > ul > li .dropdown-menu  a{ color : #FFF ; }
+
+    #navbar > .menu-1 > ul > li .dropdown-menu  > li:hover a{ color :#000 ; }
+
+    #navbar {background:#666666 ;}
+    .nav-tabs>li {
+        text-align:center ;
+        display:block ;
+        float:none;
+
+    }
+    .news-tab .nav-tabs li a { background-image : none !important ; }
+}
+.footer .footer-top{padding:20px 0 ;  }
+.footer .footer-bottom{background-color: #e87405; padding: 20px 0;   }
+.footer h4 {margin : 2px 0; color : #333 }
+
+
+#subject > .menu-2> div > ul   { margin : 0 ; padding : 0 ; list-style-type:none;display: block;text-align: center; }
+#subject > .menu-2> div > ul > li {   display:inline-block ; padding-bottom: 10px; padding-top: 10px;padding-right: 0px;  }
+#subject > .menu-2> div > ul > li > a{color :#ffffff ; font-size: 22px; font-family: 'thaisans_neueregular';  padding: 8px 12px; display: block; line-height: 18px; border-radius: 5px; text-decoration: none;}
+#subject > .menu-2> div > ul > li:hover > a { background-color : #9d9d9d; color: #fff; }
+#subject > .menu-2> div > ul > li:hover .dropdown-menu{display:block }
+#subject div ul {}
+#subject div {float: inherit !important}
+#subject{ }
+#subject > .menu-2 > div > ul > li {display:block;border-bottom:1px solid #FFF ;overflow: hidden;  }
+#subject > .menu-2 > div > ul > li .dropdown-menu {  width: 100%; background: transparent; position:relative ; }
+#subject > .menu-2 > div > ul > li .dropdown-menu  a{ color : #FFF ; }
+#subject > .menu-2 > div > ul > li .dropdown-menu  > li:hover a{ color :#000 ; }
+@media (max-width: 480px){
+    /*#subject {background:#ddd ;}*/
+    /*.pull-left{display: none;}*/
+}
+

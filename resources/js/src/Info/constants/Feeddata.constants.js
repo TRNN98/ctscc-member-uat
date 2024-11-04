@@ -1,0 +1,5 @@
+export const FeeddataConstants = {
+    FEED_REQUEST: 'FEED_INFO_REQUEST',
+    FEED_SUCCESS: 'FEED_INFO_SUCCESS',
+    FEED_FAILURE: 'FEED_INFO_FAILURE',
+};

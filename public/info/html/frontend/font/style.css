@@ -1,0 +1,15 @@
+@import url(font-thaisarabun/thsarabunnew.css);
+@import url(Prompt/prompt.css);
+
+.fixed-table-body {
+    overflow-x: unset;
+    overflow-y: unset;
+}
+
+.message-menu > .mCustomScrollBox > .mCSB_container {
+    overflow: unset;
+}
+
+.message-menu > .mCustomScrollBox {
+    overflow: unset;
+}

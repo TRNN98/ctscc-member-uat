@@ -1,0 +1,17 @@
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #4DB6AC;
+}
+@media only screen and (max-width: 500px){
+    #shareMem-part{
+        padding: 0 7px;
+    }
+    #shareMem-part .panel-body{
+        padding: 15px 0px;
+    }
+    #shareMem-part .shareHold .text-detail{
+        font-size: 12px;
+    }
+}

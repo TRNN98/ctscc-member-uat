@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "FontDefault";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Prompt Light'), url('Prompt-Light.woff') format('woff');
+}
+
+.FontDefault {
+    font-family: "FontDefault", sans-serif;
+}

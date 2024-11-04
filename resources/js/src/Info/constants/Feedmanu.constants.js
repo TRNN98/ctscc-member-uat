@@ -1,0 +1,5 @@
+export const FeedmanuConstants = {
+    FEED_REQUEST: 'FEED_MANU_REQUEST',
+    FEED_SUCCESS: 'FEED_MANU_SUCCESS',
+    FEED_FAILURE: 'FEED_MANU_FAILURE',
+};
